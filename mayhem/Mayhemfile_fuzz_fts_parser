@@ -1,0 +1,9 @@
+project: savantenvs/oceanbase
+target: fuzz_fts_parser
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_fts_parser/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_fts_parser
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/fuzz_fts_parser/fuzz_fts_parser.dict

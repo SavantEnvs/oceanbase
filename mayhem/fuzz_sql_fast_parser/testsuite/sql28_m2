@@ -1,0 +1,1 @@
+select a collate utf8mb4_bin, _utf8mb4'x', n'y' from t where a <=> 1 and not b and !c || d && e;

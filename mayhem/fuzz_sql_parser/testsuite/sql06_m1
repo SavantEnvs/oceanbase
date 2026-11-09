@@ -1,0 +1,1 @@
+update t set a = a + 1, b = 'q' where id = 7 limit 3;

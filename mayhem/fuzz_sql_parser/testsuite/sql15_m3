@@ -1,0 +1,1 @@
+'select a from (select b as a from t union select 2) x where exists (select 1 from u where u.a = x.a);

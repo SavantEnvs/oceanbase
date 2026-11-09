@@ -1,0 +1,1 @@
+'select /*+ index(t idx) parallel(4) */ a from t where b = 0x1F and c = b'101' and d = x'ab';

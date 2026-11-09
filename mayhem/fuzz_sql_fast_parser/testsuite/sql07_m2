@@ -1,0 +1,1 @@
+delete from t where a between 1 and 10 or b is null;

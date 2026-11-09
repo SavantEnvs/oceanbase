@@ -1,0 +1,1 @@
+select a, b+1 from t where c in (1,2,3) and d like 'x%' order by 1 desc limit 5 offset 2;
