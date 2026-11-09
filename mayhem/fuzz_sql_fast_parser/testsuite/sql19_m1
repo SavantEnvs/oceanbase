@@ -1,0 +1,1 @@
+show create table t; show databases like 'a%'; explain select 1; use db1;

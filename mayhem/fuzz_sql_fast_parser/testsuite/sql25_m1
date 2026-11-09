@@ -1,0 +1,1 @@
+grant select, insert on db.* to 'u'@'h' identified by 'p'; revoke all on *.* from u;

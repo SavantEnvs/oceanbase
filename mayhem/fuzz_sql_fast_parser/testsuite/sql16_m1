@@ -1,0 +1,1 @@
+select case when a > 1 then 'x' else 'y' end, if(a, 1, 2), cast(a as char(10)), a div 2, a mod 3 from t;

@@ -1,0 +1,1 @@
+create table t (id bigint primary key auto_increment, name varchar(64) not null default '', ts timestamp(6), key k1 (name), unique key u (id, name)) partition by hash(id) partitions 4;
